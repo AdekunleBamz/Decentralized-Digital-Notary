@@ -10,14 +10,14 @@ Clarinet.test({
 
     const hashHex = '0x' + '11'.repeat(32);
 
-    // u
+    // user1 calls notarize
     let block = chain.mineBlock([Tx.contractCall('notary', 'notarize', [Tx.buff(hashHex)], user1.address)]);
     assertEquals(block.receipts.length, 1);
     assertEquals(block.receipts[0].result, '(ok true)');
 
     // read map
     block = chain.mineBlock([Tx.contractCall('notary', 'get-notarization', [Tx.buff(hashHex)], deployer.address)]);
-    // The get-notarization will returna tuple (owner principal)
+    // The get-notarization will return a tuple (owner principal)
     assertEquals(block.receipts[0].result.includes(user1.address.slice(0,6)), true);
 
     // user2 tries to notarize the same hash => should error
