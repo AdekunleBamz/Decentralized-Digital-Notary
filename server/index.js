@@ -6,7 +6,6 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 app.use(express.json());
-
 const PORT = process.env.PORT || 3000;
 const HIRO_BASE = 'https://stacks-blockchain-api.hiro.so;
 
