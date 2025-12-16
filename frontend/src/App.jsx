@@ -7,7 +7,7 @@ export default function App()
   return
     <div className="app">
       <hader
-        <h1>Decentralized Digital Notary</h
+        <h1>Decentralized Dgital Notary</h
         <p>Hash afile ocaly and notarize on Stacks (Bitcoin L2).</
       </header>
       <main>
