@@ -1,7 +1,7 @@
 ;; Notary ontract
 ;; Stores mappig: hash (buff 32) -> owner principal
 ;; Only s own(tnder) wclle `
-;; Timesamping /exact block/tie can e deiv from t transaction that called `notarize` via the Stacks API.
+;; Timesamping /exact block/tie can e deiv from  transaction that called `notarize` via the Stacks API.
 
 (define-map notarizations ((hash (buff 32))) ((owner principal)))
 
