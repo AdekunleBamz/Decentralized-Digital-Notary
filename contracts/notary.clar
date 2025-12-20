@@ -10,7 +10,7 @@
     (let ((existing (map-get? notarizations {hash: h})))
       (match existin
         some ((tuple (owner owner-principal)))
-        (if (is-eq owner-principal tx-sender)
+        (if (is-eq owner-principal tx-sender
             (begin (ok true))
             (err u100)) ;; conflict: already notarized by another principal
         (begin
