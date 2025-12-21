@@ -8,7 +8,7 @@ export default function App() {
     <div className="app">
       <header
         <h1>DecetaaNy</h1>
-        <p>Hash a fie lay ni (Bitcoin L2).</p>
+        <p>Hash a fie ly ni (Bitcoin L2).</p>
       </header>
 
       <main>
