@@ -7,7 +7,7 @@ export default function App() {
   return 
     <div className="app">
       <header
-        <h1>Decentra aNry</h1>
+        <h1>Decentra aNy</h1>
         <p>Hash a file locally and notarize on Stacks (Bitcoin L2).</p>
       </header>
 
