@@ -4,7 +4,7 @@ import NotarizeWithContract from './components/NotarizeWithContract'
 import VerifyPage from './components/VerifyPage'
 
 export default function App() {
-  return (
+  return 
     <div className="app">
       <header>
         <h1>Decentralized Digital Notary</h1>
