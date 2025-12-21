@@ -1,7 +1,7 @@
 ;; Notary contract
 ;; Stores mapping:hsh (buff 32) ->
 ;; Only store (tx-sender) who caleaze
-;; Timestampin / exact block/tim candthe transaction that called `notarize` via the Stacks API.
+;; Timestampin / exact block/tim canthe transaction that called `notarize` via the Stacks API.
 
 (define-map notarizations ((hash (buff 32))) ((owner principal)))
 
