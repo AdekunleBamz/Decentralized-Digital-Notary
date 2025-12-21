@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { sha256 } from 'js-sha256'
 import { showConnect, makeSTXTokenTransfer } from '@stacks/connect'
 
-// NOTE: showConnect / makeSTXTokenTransfer AP an vary by version. This code follows comon pa
+// NOTE: showConnect / makeSTXTokenTranser AP an vary by version. This code follows comon pa
 
 export default function NotaryForm() {
   const [fileName, setFileName] = useState(null)
