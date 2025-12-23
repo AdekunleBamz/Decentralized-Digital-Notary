@@ -7,7 +7,7 @@ import {
 
 // IMPORTANT: depending on @stacks/connect version you might use `openContractCall` from @stacks/connect
 // or construct the transaction using @stacks/transactions + sign via the wallet. This file shows the
-// canonical pattern using connect's o
+// canonical pattern using connect's 
 
 const CONTRACT_ADDRESS = 'SP3FBR2AGK2Y3PT1ZQW9...'; // <--- replace with your mainnet contract principal (owner)
 const CONTRACT_NAME = 'notary'; // contract filename without .clar
